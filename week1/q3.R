@@ -30,7 +30,8 @@ while(diff>0.05){
 
 # The above is a less accurate description because it is deterministic. The proportions
 # were strictly calculated from binomial distribution which ignores the uncertainty in
-# inference making from the globe tossing process.
+# inference making from the globe tossing process. That is, the binomial distribution
+# directly always give the best case scenario.
 
 f <- function(N){
   p_true <- 0.01
